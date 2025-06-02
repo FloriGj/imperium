@@ -1,0 +1,6 @@
+config/database.config.php
+/vendor
+config/google.config.php
+config/mailer.config.php
+config/checkout.config.php
+TODO.txt

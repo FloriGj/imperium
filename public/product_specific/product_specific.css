@@ -1,0 +1,150 @@
+.main-section {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+.main-section .product-picture-carousel {
+  width: 60%;
+  margin-bottom: 0;
+}
+.main-section .product-picture-carousel .carousel {
+  width: 500%;
+}
+.main-section .product-picture-carousel .carousel .carousel-item {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.main-section .product-picture-carousel .carousel .carousel-item img {
+  width: 70%;
+}
+.main-section .product-picture-carousel button {
+  opacity: 0.8;
+}
+.main-section .rating {
+  display: flex;
+  align-items: center;
+}
+.main-section .rating .votes {
+  font-size: larger;
+  opacity: 0.8;
+}
+.main-section .description {
+  width: 38%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-section .description h2 {
+  text-align: start;
+  margin-block: 0.5rem;
+}
+.main-section .description .price-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-section .description .price-section .original-price {
+  font-size: 1.7rem;
+  opacity: 0.8;
+  text-decoration: line-through;
+}
+.main-section .description .price-section .price {
+  font-size: 3rem;
+}
+.main-section .description p {
+  opacity: 0.8;
+}
+.main-section .description .qty {
+  padding-bottom: 1rem;
+}
+.main-section .description .qty label {
+  opacity: 0.8;
+}
+.main-section .description .qty input {
+  width: 3rem;
+  height: 2rem;
+  font-size: large;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+.main-section .description button {
+  width: -moz-fit-content;
+  width: fit-content;
+  transition: scale 0.2s ease-out;
+}
+.main-section .description .button-group-wrapper {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.main-section .description .button-group-wrapper .button-group {
+  width: 40%;
+  height: 100%;
+  justify-content: space-evenly;
+}
+.main-section .description .button-group-wrapper .button-group button {
+  width: 45%;
+  padding-block: 12px;
+}
+@media only screen and (max-width: 920px) {
+  .main-section {
+    flex-direction: column;
+  }
+  .main-section .product-picture-carousel, .main-section .description {
+    width: 100%;
+  }
+  .main-section .description {
+    justify-content: center;
+    align-items: center;
+  }
+  .main-section .description h2 {
+    text-align: center;
+  }
+  .main-section .description .price-section {
+    justify-content: center;
+  }
+  .main-section .description .price-section .price {
+    font-size: 1.5rem;
+  }
+  .main-section .description .price-section .original-price {
+    font-size: 0.7rem;
+  }
+  .main-section .description p {
+    text-align: center;
+  }
+  .main-section .description .button-group-wrapper {
+    justify-content: center;
+  }
+}
+
+.table-section {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+.table-section table {
+  width: 90%;
+  border-collapse: collapse;
+}
+.table-section table td, .table-section table th {
+  height: 2.5rem;
+  border-bottom: 2px solid lightgrey;
+  text-align: center;
+}
+.table-section table th {
+  border-bottom: 2px solid grey;
+}
+
+.cards-wrapper .cards {
+  min-height: auto;
+  margin-bottom: 3rem;
+}/*# sourceMappingURL=product_specific.css.map */
