@@ -15,8 +15,10 @@ Imperium is a fully responsive, single-page e-commerce website built from scratc
   
   •	Payment Integration: API-based payment gateway
   
+
   
  Key Features
+
  
  
   •	Single-page layout with smooth navigation and dynamic content
@@ -36,9 +38,11 @@ Imperium is a fully responsive, single-page e-commerce website built from scratc
   •	Responsive design, optimized for all screen sizes
   
   •	Modular SCSS for maintainable styling
+
   
   
 Security Highlights
+
 
 
   •	Passwords hashed using industry-standard algorithms (e.g. bcrypt)
@@ -48,9 +52,11 @@ Security Highlights
   •	Secure session management and logout flow
   
   •	Prepared statements used in all database interactions
+
   
   
 Why it matters
+
 
 
 This project showcases full-stack development skills, including:
